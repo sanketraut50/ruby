@@ -23,6 +23,6 @@ class Symbol
   def to_sym
     self
   end
-
+#added command from portal
   alias intern to_sym
 end
