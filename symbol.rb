@@ -11,7 +11,7 @@ class Symbol
     Primitive.attr! :leaf
     Primitive.cexpr! 'rb_sym_to_s(self)'
   end
-
+  #adding test comment
   alias id2name to_s
 
   # call-seq:
